@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varella Round" />
+</head>
+<body>
+    <div th:fragment="navbar">
+        <nav class="navbar navbar-inverse navbar-fixed-top w3-card-4">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" th:href="@{/}" class="navbar-brand w3-text-orange" data-toggle="tooltip" data-placement="bottom" title="Cortex">
+                        <span class="fa fa-copyright"></span> CORTEX</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBarItem">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navBarItem" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="w3-hover-orange w3-hover-text-white"><a href="#" th:href="@{/use-case}" style="padding: 28px 20px;">USE CASES</a></li>
+                        <li class="w3-hover-orange w3-hover-text-white"><a href="#" style="padding: 28px 20px;">COMMUNITY</a></li>
+                        <li class="w3-hover-orange w3-hover-text-white"><a href="#" style="padding: 28px 20px;">DOCUMENTATION</a></li>
+                        <li class="w3-hover-orange w3-hover-text-white"><a href="#" th:href="@{/support}" style="padding: 28px 20px;">SUPPORT</a></li>
+                        <li class="w3-hover-orange w3-hover-text-white"><a href="#" style="padding: 28px 20px;">ABOUT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>

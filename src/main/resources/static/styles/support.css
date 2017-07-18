@@ -1,0 +1,155 @@
+body {
+	background-image: url("https://firebase.google.com/images/backslant-use-cases-repeat.svg");
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.navbar-brand {
+	font-family: "Montserrat", sans-serif;
+	font-size: 30px;
+	margin-top: 7px;
+}
+
+.navbar-inverse {
+	font-family: "Montserrat", sans-serif;
+	color: #eee;		/* 93% gray */
+	background-color: #34302d;	/* 19% gray */
+	font-size: 14px;
+	line-height: 14px;
+}
+
+#con {
+	margin-top: 210px;
+}
+
+#con p {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 28px;
+	color: white;
+}
+
+#con h2 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 68px;
+	color: white;
+}
+
+#con .endLine {
+	margin-bottom: 120px;
+}
+
+.bg-black {
+ 	background-color: rgba(52, 48, 45, 0.8);
+}
+
+#con1 h2 {
+	margin-top: 90px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 28px;
+	color: white;
+	margin-bottom: 50px;
+}
+
+#con1 .faqImg, #con1 .use-caseImg, #con1 .documentationImg, #con1 .forumImg, 
+#con1 .technical-supportImg, #con1 .bugImg, #con1 .account-supportImg {
+	height: 50px;
+	width: 50px;
+}
+
+#con1 a {
+	color: orange;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+#con1 p {
+	margin-top: 7px;
+	font-family: "Varela", sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	color: rgba(255, 255, 255, 0.9);
+	margin-bottom: 50px;
+}
+
+#con1 .endLine {
+	margin-bottom: 90px;
+}
+
+#con2 h1 {
+	margin-top: 150px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 50px;
+	font-weight: 400;
+	color: white;
+}
+
+#con2 h2 {
+	font-family: "Varela", sans-serif;
+	font-size: 50px;
+	font-weight: 400;
+	color: white;
+}
+
+#con2 .getStartedBtn {
+	margin-top: 20px;
+	margin-left: -30px;
+	padding: 20px;
+	font-family: "Montserrat", sans-serif;
+}
+
+#con2 .demoBtn {
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 20px;
+	font-family: "Montserrat", sans-serif;
+}
+
+footer {
+	margin-top: 150px;
+	background-color: #34302d;
+	padding: 35px;
+	color: white;
+}
+
+/* screen size */
+
+@media screen and (max-width: 768px) {
+	.icon-bar {
+		margin-top: 6px;
+	}	
+	
+	.navbar-brand {
+		margin-top: 0;
+	}
+
+	#con p {
+		margin-top: -70px;
+		font-size: 20px;
+	}
+
+	#con h2 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+
+	#con .endLine {
+		margin-bottom: 80px;
+	}
+
+	#con2 h1, #con2 h2 {
+		font-size: 40px;
+	}
+
+	#con2 .getStartedBtn, #con2 .demoBtn {
+		margin-left: 0;
+	}
+	
+	#con2 button {
+		width: 100%;
+	}
+}
